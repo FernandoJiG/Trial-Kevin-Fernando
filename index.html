@@ -8,19 +8,31 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header id="header">
+      <div class="head-cont">
+        <img src="images/logo.jpg" alt="logo" id="header-img">
+        <nav id="nav-bar">
+          <ul id="nav-elements">
+            <li class="nav-link" href="#video"> <a href="#video">Video</a></li>
+            <li class="nav-link" href="#form"><a href="#form">Form</a></li>
+            <li class="nav-link" href="#information"><a href="#information">Footer</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/rGJmWnM9r7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
 
-    <!--
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <input type="email" name="email" id="email" placeholder="Enter your email">
+      <button type="submit" id="submit"></button>
+    </form>
 
-    Hello Camper!
+    <footer id="information">
+      <p>Footer</p>
+    </footer>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
     <script  src="js/index.js"></script>
   </body>
 </html>
